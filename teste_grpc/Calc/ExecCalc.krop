@@ -1,0 +1,15 @@
+{
+  "details": {
+    "endpoint": "http://localhost:9000",
+    "methodFqn": "Calc.ExecCalc",
+    "disableServerCertificateValidation": true
+  },
+  "requests": [
+    {
+      "location": "ExecCalc-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc",
+  "importStreamId": "1b600b1a-2f8d-4258-8ce7-3fbef3b5dced"
+}
